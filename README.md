@@ -1,4 +1,4 @@
-#A Guestbook
+# A Guestbook
 This is Shannon's edition of a PHP guestbook. It's a very light fork of the [original php guestbook by baccyflap](http://baccyflap.com/res/gbdl/). 
 
 Here is the [demo guestbook](https://guestbook.pixels.pink).
