@@ -1,0 +1,111 @@
+:root { 
+    --background-color: #f9dee1;
+    --text-color: #000000;
+    --header-color: #f87dac;
+    --form-border: #a48ac9;
+    --button-color: #f87dac;
+    --button-border: #a48ac9;
+    --button-text: #ffffff;
+    --message-background: #ffffff;
+    --message-border: #f87dac;
+    --info-background: #fbeaec;
+    --link-color: #8c5ca5;
+    --link-hover-color: #f76ca2;
+    --guest-name: #a48ac9;
+    --footer-border: #a48ac9;
+}
+body {
+    background-color: var(--background-color);
+    text-align: center;
+     font-family: Verdana, sans-serif;
+     font-size: 1.25rem;
+     line-height: 1.5;
+     min-height: 100vh;
+     color: var(--text-color);
+ }
+#rules {
+    font-size: 1rem;
+}
+textarea {
+    border-color: var(--form-border);
+    border-style: solid;
+    border-width: 0.15rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 350px;
+    max-width: 400px;
+    height: 150px;
+}
+input {
+    border-color: var(--form-border);
+    border-style: solid;
+    border-width: 0.15rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.button {
+    background-color: var(--button-color);
+    border: 0.2rem solid var(--button-border);
+    font-weight: bold;
+    color: var(--button-text); 
+}
+.info {
+    font-weight: normal;
+    text-align: justify;
+    background-color: var(--info-background);
+    padding: 0.2rem;
+    font-size: 1rem;
+}
+.small {
+    font-size: 1rem;
+}
+.mssg {
+    margin: 0.5rem;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    background-color: var(--message-background);
+    border-color: var(--message-border);
+    border-style: solid;
+    border-width: 0.2rem;
+}
+.user {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var( --guest-name);
+}
+.date {
+    font-size: 1rem;
+}
+h1   {
+    text-align: center;
+    font-size: 2.75rem;
+    color: var(--header-color);
+    margin-top: 1pt;
+    margin-bottom: 5pt;
+}
+h2   {
+    text-align: left;
+    font-size: 2rem;
+    color: var(--header-color);
+    margin-top: 1pt;
+    margin-bottom: 0.2rem;
+    margin-left: 1rem;
+}
+a, a:visited {
+    color: var(--link-color);
+}
+
+a:hover, a:active {
+    font-weight: bold;
+    color: var(--link-hover-color);
+}
+code {
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+}
+footer {
+    font-size: 1rem;
+    border-top: 0.2rem solid var(--footer-border);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 0;
+}
